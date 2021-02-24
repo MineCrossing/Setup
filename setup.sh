@@ -24,7 +24,7 @@ git clone https://github.com/MineCrossing/Backend.git && cd Backend/ && mvn inst
 cd ..
 git clone https://github.com/MineCrossing/Frontend.git && cd Frontend/ && npm install
 cd ..
-git clone https://github.com/MineCrossing/Store.git # Seperate PHP Laravel Store
+git clone https://github.com/MineCrossing/Store.git && cd Store/ && sh setup.sh # Seperate PHP Laravel Store
 git clone https://github.com/MineCrossing/NookCore.git # Minecraft Bukkit Plugin
 echo "Finished grabbing repositories!"
 
