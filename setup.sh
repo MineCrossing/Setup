@@ -1,5 +1,7 @@
 echo "Starting MineCrossing setup!"
 
+cd ..
+
 echo "Starting basic package installation..."
 sudo apt update
 sudo apt upgrade
@@ -13,7 +15,6 @@ sudo apt-get install npm
 echo "Base package intallation done!"
 
 echo "Starting to grab MineCrossing repositories from GitHub..."
-cd ..
 git clone https://github.com/MineCrossing/CoreUtilities.git && cd CoreUtilities/ && mvn install
 cd ..
 git clone https://github.com/MineCrossing/RedisAPI.git && cd RedisAPI/ && mvn install
@@ -25,6 +26,7 @@ cd ..
 git clone https://github.com/MineCrossing/Frontend.git && cd Frontend/ && npm install
 cd ..
 git clone https://github.com/MineCrossing/Store.git && cd Store/ && sh setup.sh # Seperate PHP Laravel Store
+cd ..
 git clone https://github.com/MineCrossing/NookCore.git # Minecraft Bukkit Plugin
 echo "Finished grabbing repositories!"
 
