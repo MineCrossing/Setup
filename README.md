@@ -2,7 +2,7 @@
 Automated setup for everything MineCrossing.
 
 ### Notice
-This system has been designed to work on a Linux machine (namely Ubuntu 20.10).
+This system has been designed to work on a Linux machine (namely Ubuntu 20.10) with 4GB of RAM.
 
 ## Requirements
 This system is built using a variety of languages and frameworks and thus has many requirements listed below.
@@ -15,7 +15,7 @@ This system is built using a variety of languages and frameworks and thus has ma
  - [ReactJS](https://reactjs.org/)
 
 ## Prerequisites
-All of these commands are available to be automatically run inside `setup.sh`
+All of these commands are available to be automatically run inside `scripts/install.sh`
 ```sh
 sudo apt update
 sudo apt upgrade
@@ -33,3 +33,5 @@ Clone the repository to the folder you want all MineCrossing projects to be in a
 ```sh
 git clone https://github.com/MineCrossing/Setup.git && cd Setup && sh setup.sh
 ```
+
+If you are a lecturer or marker continue as prompted by running `start.sh` to install all prerequisites and start the services.

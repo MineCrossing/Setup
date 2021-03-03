@@ -2,32 +2,18 @@ echo "Starting MineCrossing setup!"
 
 cd ..
 
-echo "Starting basic package installation..."
-sudo apt update
-sudo apt upgrade
-sudo apt-get install nginx
-sudo apt-get install openjdk-11-jdk
-sudo apt install php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
-sudo apt install mariadb-server
-sudo apt install redis-server
-sudo apt install nodejs
-sudo apt-get install npm
-echo "Base package intallation done!"
+sh scripts/clone.sh
 
-echo "Starting to grab MineCrossing repositories from GitHub..."
-git clone https://github.com/MineCrossing/CoreUtilities.git && cd CoreUtilities/ && mvn install
-cd ..
-git clone https://github.com/MineCrossing/RedisAPI.git && cd RedisAPI/ && mvn install
-cd ..
-git clone https://github.com/MineCrossing/DatabaseConnector.git && cd DatabaseConnector/ && mvn install
-cd ..
-git clone https://github.com/MineCrossing/Backend.git && cd Backend/ && mvn install
-cd ..
-git clone https://github.com/MineCrossing/Frontend.git && cd Frontend/ && npm install
-cd ..
-git clone https://github.com/MineCrossing/Store.git && cd Store/ && sh setup.sh # Seperate PHP Laravel Store
-cd ..
-git clone https://github.com/MineCrossing/NookCore.git # Minecraft Bukkit Plugin
-echo "Finished grabbing repositories!"
+cd Setup/
 
 echo "Setup finished! Good luck have fun!"
+echo ""
+echo "If you are a lecturer or marker seeking to run this program"
+echo "you can continue and run 'start.sh' to attempt to intall"
+echo "and launch all the prerequisites and applications for this project."
+echo ""
+echo "Please note that this entire project was designed to work on a"
+echo "Linux based system running Ubuntu 20.10 with 4GB of RAM."
+echo ""
+echo "It is also worth noting that a fault free version of this project"
+echo "is running live at https://minecrossing.xyz"
