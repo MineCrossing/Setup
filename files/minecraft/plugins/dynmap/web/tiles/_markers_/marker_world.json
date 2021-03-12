@@ -1,0 +1,18 @@
+{"sets": {"markers": {"hide": false,"circles": {}
+,"areas": {"_worldborder_world": {"fillcolor": "#000000","ytop": 64.00,"color": "#FF0000","markup": false,"x": [-499.50,500.50,500.50,-499.50]
+,"weight": 3,"z": [-499.50,-499.50,500.50,500.50]
+,"ybottom": 64.00,"label": "Border","opacity": 0.80,"fillopacity": 0.00}
+}
+,"label": "Markers","markers": {"_spawn_world": {"markup": false,"x": 35.00,"icon": "world","y": 68.00,"dim": "16x16","z": 276.00,"label": "Spawn"}
+,"galen": {"markup": false,"x": 34.00,"icon": "default","y": 73.00,"dim": "16x16","z": 196.00,"label": "Galen"}
+,"lakestead": {"markup": false,"x": -240.00,"icon": "coins","y": 70.00,"dim": "16x16","z": -33.00,"label": "Lakestead"}
+,"paramore": {"markup": false,"x": 180.00,"icon": "tower","y": 109.00,"dim": "16x16","z": -129.00,"label": "Paramore"}
+,"galen_keep": {"markup": false,"x": -165.00,"icon": "king","y": 109.00,"dim": "16x16","z": 94.00,"label": "Keep"}
+,"riverrun": {"markup": false,"x": 279.00,"icon": "house","y": 68.00,"dim": "16x16","z": -73.00,"label": "Riverrun"}
+,"portal": {"markup": false,"x": 43.00,"icon": "portal","y": 91.00,"dim": "16x16","z": -85.00,"label": "Portal"}
+,"shrine": {"markup": false,"x": 147.00,"icon": "temple","y": 111.00,"dim": "16x16","z": -5.00,"label": "Gaea"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1615552477037}

@@ -9,3 +9,10 @@ sudo apt install redis-server
 sudo apt install nodejs
 sudo apt-get install npm
 echo "Base package intallation done!"
+
+echo "Copying files..."
+sudo cp files/default /etc/nginx/sites-available/default
+sudo cp files/redis.conf /etc/redis/redis.conf
+sudo cp -R files/minecraft/ ../
+sudo wget ../minecraft/airplane.jar -O https://dl.airplane.gg/latest/Airplane-JDK11/launcher-airplane.jar
+echo "Done copying files!"

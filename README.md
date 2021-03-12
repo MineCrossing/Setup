@@ -2,10 +2,11 @@
 Automated setup for everything MineCrossing.
 
 ### Notice
-This system has been designed to work on a Linux machine (namely Ubuntu 20.10) with 4GB of RAM.
+This system has been designed to work on a Linux machine (namely Ubuntu 20.04) with 4GB of RAM.
 
 ## Requirements
-This system is built using a variety of languages and frameworks and thus has many requirements listed below.
+This system is built using a variety of systems languages and frameworks and thus has many requirements listed below.
+ - [Ubuntu 20.04](https://ubuntu.com/)
  - [NGINX](https://www.nginx.com/)
  - [OpenJDK Java 11](https://openjdk.java.net/projects/jdk/11/)
  - [PHP 7.4](https://www.php.net/)
@@ -15,18 +16,7 @@ This system is built using a variety of languages and frameworks and thus has ma
  - [ReactJS](https://reactjs.org/)
 
 ## Prerequisites
-All of these commands are available to be automatically run inside `scripts/install.sh`
-```sh
-sudo apt update
-sudo apt upgrade
-sudo apt-get install nginx
-sudo apt-get install openjdk-11-jdk
-sudo apt install php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath
-sudo apt install mariadb-server
-sudo apt install redis-server
-sudo apt install nodejs
-sudo apt-get install npm
-```
+There are a variety of commands available to be automatically run inside `scripts/start.sh` including installing the required Linux packages.
 
 ## How to use
 Clone the repository to the folder you want all MineCrossing projects to be in and clone, then cd in and run the setup script.

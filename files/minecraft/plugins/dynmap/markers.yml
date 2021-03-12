@@ -1,0 +1,75 @@
+%YAML 1.1
+---
+icons: {
+    }
+sets:
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Markers
+        markers:
+            galen:
+                world: world
+                markup: false
+                x: 34.0
+                icon: default
+                y: 73.0
+                z: 196.0
+                label: Galen
+            lakestead:
+                world: world
+                markup: false
+                x: -240.0
+                icon: coins
+                y: 70.0
+                z: -33.0
+                label: Lakestead
+            paramore:
+                world: world
+                markup: false
+                x: 180.0
+                icon: tower
+                y: 109.0
+                z: -129.0
+                label: Paramore
+            galen_keep:
+                world: world
+                markup: false
+                x: -165.0
+                icon: king
+                y: 109.0
+                z: 94.0
+                label: Keep
+            riverrun:
+                world: world
+                markup: false
+                x: 279.0
+                icon: house
+                y: 68.0
+                z: -73.0
+                label: Riverrun
+            portal:
+                world: world
+                markup: false
+                x: 43.0
+                icon: portal
+                y: 91.0
+                z: -85.0
+                label: Portal
+            shrine:
+                world: world
+                markup: false
+                x: 147.0
+                icon: temple
+                y: 111.0
+                z: -5.0
+                label: Gaea
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }
