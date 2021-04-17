@@ -2,7 +2,7 @@ echo "Starting MineCrossing setup!"
 
 cd ..
 
-sh scripts/clone.sh
+sh Setup/scripts/clone.sh
 
 cd Setup/
 

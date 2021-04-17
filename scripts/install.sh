@@ -14,6 +14,9 @@ echo "Base package intallation done!"
 echo "Copying files..."
 sudo cp files/default /etc/nginx/sites-available/default
 sudo cp files/redis.conf /etc/redis/redis.conf
-sudo unzip files/minecraft/minecraft.zip && sudo cp -R files/minecraft/ ../ # Create MC server
-sudo wget ../minecraft/airplane.jar -O https://dl.airplane.gg/latest/Airplane-JDK11/launcher-airplane.jar
+
+mkdir ../Minecraft
+cd ../Minecraft/
+sudo unzip Setup/files/minecraft/minecraft.zip # Create MC server
+sudo wget -O airplane.jar https://dl.airplane.gg/latest/Airplane-JDK11/launcher-airplane.jar
 echo "Done copying files!"
