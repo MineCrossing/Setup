@@ -9,7 +9,7 @@ sudo apt install redis-server
 sudo apt install nodejs
 sudo apt-get install npm
 sudo apt install zip
-echo "Base package intallation done!"
+echo "Base package installation done!"
 
 echo "Copying files..."
 sudo cp files/default /etc/nginx/sites-available/default
