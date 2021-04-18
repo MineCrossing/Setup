@@ -34,7 +34,7 @@ git clone https://github.com/MineCrossing/Setup.git && cd Setup && sh setup.sh
 If you are a lecturer or marker continue as prompted by running `start.sh` to install all prerequisites and start the services.
 This will take some time as it runs through the `scripts/install.sh` script as well as doing project setup.
 
-## When Running
+### When Running
 When this project is running it has several processes that it utilises:
  - MariaDB | MySQL fork database running in background
  - Redis | Messaing service running in background
@@ -45,7 +45,7 @@ When this project is running it has several processes that it utilises:
  - Frontend | A React app running on a specified port
  - Store | The store is a special case PHP project running on the default nginx web server
 
-## Ports
+### Ports
 Because this project has so many services running on one machine we make use of a a lot of ports:
  - Database: 3306
  - Redis: 6379
